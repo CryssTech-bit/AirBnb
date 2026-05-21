@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+=======
+import heroImg from "./assets/hero.png";
+import AirLogo from "./assets/Full-logo.svg";
+import AirLogo1 from "./assets/Logo.svg";
+import "./App.css";
+>>>>>>> parent of e7f4997 (Haeder  component almost done)
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+<<<<<<< HEAD
     <>
       <section id="center">
         <div className="hero">
@@ -117,6 +125,16 @@ function App() {
       <section id="spacer"></section>
     </>
   )
+=======
+    <section id="center">
+      <div className="hero">
+        <img src={heroImg} className="base" width="170" height="179" alt="" />
+        <img src={AirLogo1} className="framework" alt="Airbnb logo" />
+        <img src={AirLogo} className="vite" alt="Vite logo" />
+      </div>
+    </section>
+  );
+>>>>>>> parent of e7f4997 (Haeder  component almost done)
 }
 
 export default App
