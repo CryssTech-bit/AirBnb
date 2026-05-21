@@ -8,7 +8,6 @@ import Menu from "../../../assets/icons/Hamburger.svg";
 const NavBar = () => {
   return (
     <>
-      {/* search */}
       <div className="sticky top-0 z-50 pt-2 pb-0.5 md:hidden bg-white">
         <div
           className="  w-[70%] h-10 m-auto border rounded-2xl flex justify-center items-center 

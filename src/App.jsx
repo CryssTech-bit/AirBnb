@@ -1,15 +1,13 @@
-import heroImg from "./assets/hero.png";
-import AirLogo from "./assets/Full-logo.svg";
-import AirLogo1 from "./assets/Logo.svg";
 import "./App.css";
+import NavBar from "./components/Layout/NavBar/NavBar";
 
 function App() {
   return (
     <section id="center">
-      <div className="hero">
-        <img src={heroImg} className="base" width="170" height="179" alt="" />
-        <img src={AirLogo1} className="framework" alt="Airbnb logo" />
-        <img src={AirLogo} className="vite" alt="Vite logo" />
+      <div className="hero bg-white">
+        {/* <Nav /> */}
+        <NavBar />
+        <div className="h-[150vh] bg-amber-800"></div>
       </div>
     </section>
   );
