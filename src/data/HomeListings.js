@@ -1,12 +1,19 @@
 // Home.js
 
+import original1 from "../assets/images/original1.png";
+import original2 from "../assets/images/original2.png";
+import original3 from "../assets/images/original3.png";
+import original4 from "../assets/images/original4.png";
+import original5 from "../assets/images/original5.png";
+import original6 from "../assets/images/original6.png";
+import original7 from "../assets/images/original7.png";
 export const airbnbOriginals = [
   {
     id: 1,
     title: "Play a match with soccer pros in Miami Stadium",
     location: "Miami Gardens, United States",
     price: "$250 / guest",
-    image: "/assets/originals/original1.jpg",
+    image: original1,
     badge: "Original",
   },
   {
@@ -14,7 +21,7 @@ export const airbnbOriginals = [
     title: "Youth training day with soccer pro Christen Press",
     location: "Glendale, United States",
     price: "$150 / guest",
-    image: "/assets/originals/original2.jpg",
+    image: original2,
     badge: "Original",
   },
   {
@@ -22,7 +29,7 @@ export const airbnbOriginals = [
     title: "Youth training day with soccer pro Ian Wright",
     location: "New York, United States",
     price: "$150 / guest",
-    image: "/assets/originals/original3.jpg",
+    image: original3,
     badge: "Original",
   },
   {
@@ -30,7 +37,7 @@ export const airbnbOriginals = [
     title: "Train with soccer legend Javier Mascherano",
     location: "Miami, United States",
     date: "Coming June 1",
-    image: "/assets/originals/original4.jpg",
+    image: original4,
     badge: "Original",
   },
   {
@@ -38,7 +45,7 @@ export const airbnbOriginals = [
     title: "Watch party with Abby Wambach and Julie Foudy",
     location: "Los Angeles, United States",
     date: "Coming June 1",
-    image: "/assets/originals/original5.jpg",
+    image: original5,
     badge: "Original",
   },
   {
@@ -46,7 +53,7 @@ export const airbnbOriginals = [
     title: "FIFA World Cup 26™ fan night with Abby and Julie",
     location: "New York, United States",
     date: "Coming June 1",
-    image: "/assets/originals/original6.jpg",
+    image: original6,
     badge: "Original",
   },
   {
@@ -54,7 +61,7 @@ export const airbnbOriginals = [
     title: "Play a match with soccer pros in Toronto Stadium",
     location: "Toronto, Canada",
     date: "Coming June 1",
-    image: "/assets/originals/original7.jpg",
+    image: original7,
     badge: "Original",
   },
 ];

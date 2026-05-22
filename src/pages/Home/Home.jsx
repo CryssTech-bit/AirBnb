@@ -1,7 +1,12 @@
-import React from "react";
+import Grid from "../../components/experiences/ExperienceGrids";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      Home
+      <Grid />
+    </div>
+  );
 };
 
 export default Home;
