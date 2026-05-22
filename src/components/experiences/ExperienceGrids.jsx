@@ -43,6 +43,7 @@ const Grid = () => {
           />
         ))}
       </div>
+      <h2 className="text-3xl font-semibold text-gray-900">Airbnb Originals</h2>
     </section>
   );
 };
