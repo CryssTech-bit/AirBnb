@@ -7,9 +7,9 @@ const Grid = () => {
   return (
     <section className="w-full px-6 py-10">
       {/* Section Header */}
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex  justify-between mb-1">
         <div>
-          <h2 className="text-3xl font-semibold text-gray-900">
+          <h2 className="text-[24px] text-left font-semibold text-black">
             Airbnb Originals
           </h2>
 
@@ -31,7 +31,7 @@ const Grid = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6">
+      <div className="gap-6 lg:gap-7 flex scrollbar-hide overflow-x-auto scrollbar-hide py-2">
         {airbnbOriginals.map((item) => (
           <ExperienceCard
             key={item.id}

@@ -16,7 +16,7 @@ const NavBar = () => {
           Search
         </div>
       </div>
-      <div className=" flex flex-col md:flex-row justify-between  px-5   bg-white w-full">
+      <div className="  border-b-1 pb-3 flex flex-col md:flex-row justify-between  px-5   bg-white w-full">
         {/* Logo */}
         <img className="hidden md:block" src={AirLogo} alt="Airbnb logo" />
 
