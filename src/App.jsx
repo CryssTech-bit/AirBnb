@@ -4,11 +4,11 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <section id="center">
+    <section>
       <div className="hero bg-white">
         {/* <Nav /> */}
         <NavBar />
-        <div className="h-[150vh] bg-amber-800">
+        <div className="h-[150vh]">
           <Home />
         </div>
       </div>

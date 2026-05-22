@@ -64,6 +64,22 @@ export const airbnbOriginals = [
     image: original7,
     badge: "Original",
   },
+  {
+    id: 8,
+    title: "Play a match with soccer pros in Miami Stadium",
+    location: "Miami Gardens, United States",
+    price: "$250 / guest",
+    image: original1,
+    badge: "Original",
+  },
+  {
+    id: 9,
+    title: "Play a match with soccer pros in Miami Stadium",
+    location: "Miami Gardens, United States",
+    price: "$250 / guest",
+    image: original1,
+    badge: "Original",
+  },
 ];
 
 export const capeTownExperiences = [
