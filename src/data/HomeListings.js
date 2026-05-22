@@ -7,6 +7,63 @@ import original4 from "../assets/images/original4.png";
 import original5 from "../assets/images/original5.png";
 import original6 from "../assets/images/original6.png";
 import original7 from "../assets/images/original7.png";
+
+export const popularHomesInCapeTown = [
+  {
+    id: 1,
+    title: "Apartment in Cape Town ",
+    location: "CapeTown, South Africa",
+    price: "$104 for 2 Nights",
+    stars: 5.0,
+    image: original1,
+    badge: "Guest Favorite",
+  },
+  {
+    id: 2,
+    title: "Villa in Clifton",
+    location: "CapeTown, South Africa",
+    price: "$1,013 for 2 Nights",
+    stars: 4.9,
+    image: original2,
+    badge: "Guest Favorite",
+  },
+  {
+    id: 2,
+    title: "Home in Cape Town",
+    location: "CapeTown, South Africa",
+    price: "$577 for 2 Nights",
+    stars: 5.0,
+    image: original2,
+    badge: "Guest Favorite",
+  },
+  {
+    id: 2,
+    title: "Apartment in Green Point",
+    location: "CapeTown, South Africa",
+    price: "$202 for 2 Nights",
+    stars: 4.92,
+    image: original2,
+    badge: "Guest Favorite",
+  },
+  {
+    id: 2,
+    title: "Room in Sea Point",
+    location: "CapeTown, South Africa",
+    price: "$161 for 2 Nights",
+    stars: 4.85,
+    image: original2,
+    badge: "Guest Favorite",
+  },
+  {
+    id: 2,
+    title: "Apartment in Clifton",
+    location: "CapeTown, South Africa",
+    price: "$567 for 2 Nights",
+    stars: 4.98,
+    image: original2,
+    badge: "Guest Favorite",
+  },
+];
 export const airbnbOriginals = [
   {
     id: 1,
